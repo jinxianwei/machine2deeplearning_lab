@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 def main():
     # 1. 读取csv数据
-    name_dict, data = read_csv_data("/home/bennie/bennie/temp/machine2deeplearning_lab/dataset/npvproject-concrete.csv")
+    name_dict, data = read_csv_data("dataset/npvproject-concrete.csv")
     print(name_dict, data.shape)
     
     # 2. 确定特征和标签
