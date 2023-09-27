@@ -10,6 +10,7 @@ model = LightningNet(indim=8, outdim=1)
 my_transform = transforms.Compose(
     [transforms.Lambda(lambda x: (x - np.mean(x)) / np.std(x))]
 )
+# TODO windows 需要删除num_workers参数，不支持多进程读取数据
 data_module = Npv_DataModule(data_path='/home/bennie/bennie/temp/machine2deeplearning_lab/dataset/npvproject-concrete.csv',
                              split_test=0.2,
                              batch_size=20,
