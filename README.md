@@ -3,7 +3,9 @@
 
 Machine or Deep Learning for heu lab
 
-运行前，确保终端当前路径在项目根目录
+1. 运行前，确保终端当前路径在项目根目录
+
+2. 深度学习任务，windows和linux在读取数据为dataloader时，需要注意num_workers参数的设置
 
 ```bash
 # 线性回归
