@@ -17,9 +17,9 @@
 - 回归
 
 ###### 注意
-[X] 运行前，确保终端当前路径在项目根目录
+- [x]  运行前，确保终端当前路径在项目根目录
 
-[X] 深度学习任务，windows和linux在读取数据为dataloader时，需要注意num_workers参数的设置
+- [x]  深度学习任务，windows和linux在读取数据为dataloader时，需要注意num_workers参数的设置
 
 运行命令
 ```bash
