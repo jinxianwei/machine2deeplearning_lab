@@ -14,4 +14,7 @@ python machine_learning/logistic_regression/train.py
 
 # 深度回归
 python  deep_learning/regression/train.py
+
+## 深度学习 查看tensorboard损失曲线变化
+tensorboard --logdir /home/bennie/bennie/temp/machine2deeplearning_lab/deep_learning/regression/tb_logs/npvproject/version_0
 ```
