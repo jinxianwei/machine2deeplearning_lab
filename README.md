@@ -11,4 +11,7 @@ python machine_learning/linear_regression/train.py
 
 # 逻辑回归
 python machine_learning/logistic_regression/train.py
+
+# 深度回归
+python  deep_learning/regression/train.py
 ```
