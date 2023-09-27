@@ -61,7 +61,7 @@ class LightningNet(pl.LightningModule):
         return super().on_validation_epoch_end()
     
     def configure_optimizers(self):
-        return Adam(self.model.parameters(), lr=0.01)
+        return Adam(self.model.parameters(), lr=0.001)
         
     
         

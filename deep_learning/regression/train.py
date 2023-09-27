@@ -11,10 +11,10 @@ my_transform = transforms.Compose(
     [transforms.Lambda(lambda x: (x - np.mean(x)) / np.std(x))]
 )
 # TODO windows 需要删除num_workers参数，不支持多进程读取数据
-data_module = Npv_DataModule(data_path='/home/bennie/bennie/temp/machine2deeplearning_lab/dataset/npvproject-concrete.csv',
+data_module = Npv_DataModule(data_path='E:\\github_project\\machine2deeplearning_lab\\dataset\\npvproject-concrete.csv',
                              split_test=0.2,
                              batch_size=20,
-                             num_workers=4,
+                            #  num_workers=4,
                              transform=my_transform)
 tensorboard_logger = TensorBoardLogger('tb_logs', name='npvproject')
 trainer = Trainer(logger=tensorboard_logger,
