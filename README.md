@@ -5,7 +5,7 @@
 
 ![image](https://github.com/jinxianwei/CloudImg/assets/81373517/c08e2c56-179c-4568-8eeb-ae0047103c04)
 ![image](https://github.com/jinxianwei/CloudImg/assets/81373517/ddbe8b3e-02a5-42a9-8bb9-d53cb3792ce0)
-![image](https://github.com/jinxianwei/CloudImg/assets/81373517/0651673c-76ca-4536-885f-6273683e1147)
+![image](https://github.com/jinxianwei/CloudImg/assets/81373517/c452fb0b-675a-4ff0-b537-04af7506b1fe)
 
 目录结构
 
