@@ -3,6 +3,10 @@
 
 **Machine or Deep Learning for HEU Lab**
 
+![image](https://github.com/jinxianwei/CloudImg/assets/81373517/c08e2c56-179c-4568-8eeb-ae0047103c04)
+![image](https://github.com/jinxianwei/CloudImg/assets/81373517/ddbe8b3e-02a5-42a9-8bb9-d53cb3792ce0)
+![image](https://github.com/jinxianwei/CloudImg/assets/81373517/c452fb0b-675a-4ff0-b537-04af7506b1fe)
+
 目录结构
 
 #### 机器学习
@@ -14,8 +18,8 @@
 
 #### 深度学习
 依赖 **Pytorch**，框架 **Pytorch_Lightning**
-- 分类(npv混凝土强度数据)
-- 回归(鸢尾花分类数据)
+- 回归任务(npv混凝土强度数据)
+- 分类任务(鸢尾花分类数据)
 
 ###### 注意
 - [x]  运行前，确保终端当前路径在项目根目录
