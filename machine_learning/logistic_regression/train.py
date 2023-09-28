@@ -23,7 +23,7 @@ def main():
     
     # 3. 划分训练集和测试集
     # TODO 数据集是否划分取决于模型，线性回归模型没有划分数据集的必要
-    x_train, x_test, y_train, y_test= train_test_split(x, y, test_size=0.5, random_state=0)
+    x_train, x_test, y_train, y_test= train_test_split(x, y, stratify=y, test_size=0.5, random_state=0)
     
     # 4. 建立模型训练
     classifier = LogisticRegression()

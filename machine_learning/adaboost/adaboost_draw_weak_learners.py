@@ -24,10 +24,10 @@ def main():
     y = data[:, -1]
     
     # 3. 划分训练集和测试集
-    x_train, x_test, y_train, y_test= train_test_split(x, y, test_size=0.2, random_state=0)
+    x_train, x_test, y_train, y_test= train_test_split(x, y, stratify=y, test_size=0.2, random_state=0)
     
     # 4. 保存不同弱分类器数量时，测试集上评估指标
-    weak_learns = [i for i in range(1, 40)]
+    weak_learns = [i for i in range(1, 50)]
     all_accuracy = []
     all_precision = []
     all_recall = []
@@ -36,7 +36,7 @@ def main():
 
     
     # 5. 建立模型
-    for i in tqdm(range(1, 40)):
+    for i in tqdm(range(1, 50)):
         clf = AdaBoostClassifier(n_estimators=i)
         clf.fit(x_train, y_train)
     
@@ -60,6 +60,7 @@ def main():
     plt.ylabel('Test accuracy')
     plt.grid(True)
     plt.savefig('./accuracy.png')
+    print(all_accuracy[-3:])
     
 if __name__ == "__main__":
     main()
