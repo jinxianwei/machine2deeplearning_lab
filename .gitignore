@@ -163,3 +163,5 @@ cython_debug/
 lightning_logs/
 tb_logs/
 *.pkl
+*.png
+*.jpg

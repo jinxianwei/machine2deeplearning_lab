@@ -23,7 +23,7 @@ def main():
     y = data[:, -1]
     
     # 3. 划分训练集和测试集
-    x_train, x_test, y_train, y_test= train_test_split(x, y, test_size=0.2, random_state=0)
+    x_train, x_test, y_train, y_test= train_test_split(x, y, stratify=y, test_size=0.2, random_state=0)
     
     # 4. 建立模型
     clf = AdaBoostClassifier(n_estimators=100)

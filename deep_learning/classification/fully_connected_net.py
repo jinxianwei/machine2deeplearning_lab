@@ -55,6 +55,7 @@ class Class_LightningNet(pl.LightningModule):
     
     def on_validation_epoch_end(self) -> None:
         val_epoch_ce_loss = torch.stack(self.val_step_loss).mean()
+        self.val_step_loss.clear()
         self.log('val_epoch_ce_loss', val_epoch_ce_loss)
         self.log('lr', self.optimizers().param_groups[0]['lr'])
         return super().on_validation_epoch_end()

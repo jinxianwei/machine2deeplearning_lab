@@ -11,15 +11,23 @@
 
 #### 机器学习
 算法库 **Sklearn**
-- 线性回归
-- 逻辑回归
-- 决策树
-- Adaboost-(分类任务)
+- [x] 线性回归
+- [x] 逻辑回归
+- [ ] 决策树
+- [x] Adaboost-(分类任务)
+不同数量弱分类器在测试集上的accuracy
+![accuracy](https://github.com/jinxianwei/CloudImg/assets/81373517/3c4c7afa-2e5e-4679-8852-81302ea6045a)
+- [x] Nearest Neighbors -(分类任务)
+不同Neighbors权重类型模型在测试集决策边界的可视化
+![k_neighbors](https://github.com/jinxianwei/CloudImg/assets/81373517/4b25b680-c883-48e2-9846-357959fe7363)
+- [x] SVM-(分类任务)
+不同SVM分类器在测试集决策边界的可视化
+![svm](https://github.com/jinxianwei/CloudImg/assets/81373517/36703295-9af3-406e-b8bb-728c77852bb8)
 
 #### 深度学习
 依赖 **Pytorch**，框架 **Pytorch_Lightning**
-- 回归任务(npv混凝土强度数据)
-- 分类任务(鸢尾花分类数据)
+- [x] 回归任务(npv混凝土强度数据)
+- [x] 分类任务(鸢尾花分类数据)
 
 ###### 注意
 - [x]  运行前，确保终端当前路径在项目根目录
