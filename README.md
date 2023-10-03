@@ -22,7 +22,7 @@
 ![k_neighbors](https://github.com/jinxianwei/CloudImg/assets/81373517/4b25b680-c883-48e2-9846-357959fe7363)
 - [x] SVM-(分类任务)
 不同SVM分类器在测试集决策边界的可视化
-![svm](https://github.com/jinxianwei/CloudImg/assets/81373517/36703295-9af3-406e-b8bb-728c77852bb8)
+![svm](https://github.com/jinxianwei/CloudImg/assets/81373517/2a154234-ba2a-45d8-88ef-0ea4bd59cabf)
 - [x] LogisticRegression with PCA
 训练集特征前两个主成分在类别上的可视化
 ![x_train_pca](https://github.com/jinxianwei/CloudImg/assets/81373517/00878756-df1f-4e64-a04b-213371fda10b)

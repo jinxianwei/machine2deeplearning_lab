@@ -23,6 +23,7 @@ def main():
     # 鸢尾花数据集三类标签
     label_dict = {0: 'setosa', 1: 'versicolor', 2: 'virginica'}
     label_list = ['setosa', 'versicolor', 'virginica']
+    feature_name = [val for key, val in name_dict.items()]
     
     # 2. 确定特征和标签
     x = data[:, :2] # 只选择前两个特征进行训练，为方便可视化
@@ -75,8 +76,8 @@ def main():
             cmap=plt.cm.coolwarm,
             alpha=0.8,
             ax=ax,
-            xlabel=label_list[0],
-            ylabel=label_list[1],
+            xlabel=feature_name[0],
+            ylabel=feature_name[1],
         )
         ax.scatter(x_test[:, 0], x_test[:, 1], c=y_test, cmap=plt.cm.coolwarm, s=20, edgecolors="k")
         ax.set_xticks(())
