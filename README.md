@@ -24,9 +24,8 @@
 不同SVM分类器在测试集决策边界的可视化
 ![svm](https://github.com/jinxianwei/CloudImg/assets/81373517/36703295-9af3-406e-b8bb-728c77852bb8)
 - [x] LogisticRegression with PCA
-训练集特征前两个主成分在类别上的可视化
+训练集和测试集特征前两个主成分在类别上的可视化
 ![x_train_pca](https://github.com/jinxianwei/CloudImg/assets/81373517/00878756-df1f-4e64-a04b-213371fda10b)
-测试集特征前两个主成分在类别上的可视化
 ![x_test_pca](https://github.com/jinxianwei/CloudImg/assets/81373517/d14fa1de-e5bf-46f2-8707-91d86bb2be21)
 #### 深度学习
 依赖 **Pytorch**，框架 **Pytorch_Lightning**
