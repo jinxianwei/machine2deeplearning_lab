@@ -27,6 +27,9 @@
 训练集和测试集特征前两个主成分在类别上的可视化
 ![x_train_pca](https://github.com/jinxianwei/CloudImg/assets/81373517/00878756-df1f-4e64-a04b-213371fda10b)
 ![x_test_pca](https://github.com/jinxianwei/CloudImg/assets/81373517/d14fa1de-e5bf-46f2-8707-91d86bb2be21)
+- [x] 绘制不同分类器在测试集上的预测概率
+![prob](https://github.com/jinxianwei/CloudImg/assets/81373517/b498966e-64c9-4c3f-88db-8ff114d29ec8)
+
 #### 深度学习
 依赖 **Pytorch**，框架 **Pytorch_Lightning**
 - [x] 回归任务(npv混凝土强度数据)
@@ -47,6 +50,7 @@ python machine_learning/logistic_regression/train.py
 
 # 逐步增强法(Adaboost)(分类任务)
 python machine_learning/adaboost/adaboost_classifier.py
+...
 
 # 深度回归
 python  deep_learning/regression/train.py
