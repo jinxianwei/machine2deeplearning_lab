@@ -29,6 +29,10 @@
 ![x_test_pca](https://github.com/jinxianwei/CloudImg/assets/81373517/d14fa1de-e5bf-46f2-8707-91d86bb2be21)
 - [x] 绘制不同分类器在测试集上的预测概率
 ![prob](https://github.com/jinxianwei/CloudImg/assets/81373517/b498966e-64c9-4c3f-88db-8ff114d29ec8)
+- [x] 异常值检测
+预测为异常点和真实的异常点的可视化
+![outlier_detection_pred](https://github.com/jinxianwei/CloudImg/assets/81373517/0975ce3d-b0bc-41b3-ba28-9b9d7464fbe6)
+![outlier_detection](https://github.com/jinxianwei/CloudImg/assets/81373517/09efcfd2-866f-4f9d-b0db-f6988a7855e1)
 
 #### 深度学习
 依赖 **Pytorch**，框架 **Pytorch_Lightning**
