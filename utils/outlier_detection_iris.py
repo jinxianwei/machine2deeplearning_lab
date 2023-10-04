@@ -15,7 +15,7 @@ def main():
     num_pred_outlier = outlier_indices[0].shape
     print("根据模型预测，总体数据中异常值数据的个数为{}, 其数据标号为{}".format(num_pred_outlier, outlier_indices))
     
-    # TODO 3. 找一个最合适的模型参数
+    # TODO 3. 找一个比较合适的模型参数
     # 定义参数范围
     param_grid = {'n_neighbors': [5, 10, 15, 20],
                 'contamination': [0.05, 0.1, 0.15, 0.2]}
