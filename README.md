@@ -22,7 +22,17 @@
 ![k_neighbors](https://github.com/jinxianwei/CloudImg/assets/81373517/4b25b680-c883-48e2-9846-357959fe7363)
 - [x] SVM-(分类任务)
 不同SVM分类器在测试集决策边界的可视化
-![svm](https://github.com/jinxianwei/CloudImg/assets/81373517/36703295-9af3-406e-b8bb-728c77852bb8)
+![svm](https://github.com/jinxianwei/CloudImg/assets/81373517/2a154234-ba2a-45d8-88ef-0ea4bd59cabf)
+- [x] LogisticRegression with PCA
+训练集和测试集特征前两个主成分在类别上的可视化
+![x_train_pca](https://github.com/jinxianwei/CloudImg/assets/81373517/00878756-df1f-4e64-a04b-213371fda10b)
+![x_test_pca](https://github.com/jinxianwei/CloudImg/assets/81373517/d14fa1de-e5bf-46f2-8707-91d86bb2be21)
+- [x] 绘制不同分类器在测试集上的预测概率
+![prob](https://github.com/jinxianwei/CloudImg/assets/81373517/b498966e-64c9-4c3f-88db-8ff114d29ec8)
+- [x] 异常值检测
+预测为异常点和真实的异常点的可视化
+![outlier_detection_pred](https://github.com/jinxianwei/CloudImg/assets/81373517/0975ce3d-b0bc-41b3-ba28-9b9d7464fbe6)
+![outlier_detection](https://github.com/jinxianwei/CloudImg/assets/81373517/09efcfd2-866f-4f9d-b0db-f6988a7855e1)
 
 #### 深度学习
 依赖 **Pytorch**，框架 **Pytorch_Lightning**
@@ -44,6 +54,7 @@ python machine_learning/logistic_regression/train.py
 
 # 逐步增强法(Adaboost)(分类任务)
 python machine_learning/adaboost/adaboost_classifier.py
+...
 
 # 深度回归
 python  deep_learning/regression/train.py
