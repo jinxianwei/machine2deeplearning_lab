@@ -11,6 +11,27 @@
 
 #### 机器学习
 算法库 **Sklearn**
+回归算法：线性回归，岭回归，多项式回归，决策树，正向激励（adaboost），随机森林，支持向量机
+
+评估指标：
+       sklearn.metrics提供了计算模型误差的几个常用算法：
+
+              ```python
+              # 评估指标时将训练集的r2_score与测试集r2_score进行比较，可以判断模型是否过拟合或欠拟合
+              
+              import sklearn.metrics as sm
+
+              # 平均绝对值误差：1/m∑|实际输出-预测输出|
+              sm.mean_absolute_error(y, pred_y)
+              # 平均平方误差：SQRT(1/mΣ(实际输出-预测输出)^2)
+              sm.mean_squared_error(y, pred_y)
+              # 中位绝对值误差：MEDIAN(|实际输出-预测输出|)
+              sm.median_absolute_error(y, pred_y)
+              # R2得分，(0,1]区间的分值。分数越高，误差越小。
+              sm.r2_score(y, pred_y)
+              ```
+
+
 - [x] 线性回归
 - [x] 逻辑回归
 - [ ] 决策树
