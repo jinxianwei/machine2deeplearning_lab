@@ -18,19 +18,37 @@
 
               ```python
               # 评估指标时将训练集的r2_score与测试集r2_score进行比较，可以判断模型是否过拟合或欠拟合
-              
-              import sklearn.metrics as sm
-
+                     import sklearn.metrics as sm
               # 平均绝对值误差：1/m∑|实际输出-预测输出|
               sm.mean_absolute_error(y, pred_y)
               # 平均平方误差：SQRT(1/mΣ(实际输出-预测输出)^2)
-              sm.mean_squared_error(y, pred_y)
+                     sm.mean_squared_error(y, pred_y)
               # 中位绝对值误差：MEDIAN(|实际输出-预测输出|)
-              sm.median_absolute_error(y, pred_y)
+                     sm.median_absolute_error(y, pred_y)
               # R2得分，(0,1]区间的分值。分数越高，误差越小。
-              sm.r2_score(y, pred_y)
+                     sm.r2_score(y, pred_y)
               ```
 
+分类算法：
+       1.线性分类器,线性判别分析(LDA)，逻辑回归(logistic regression)，朴素贝叶斯分类器(naive bayes classifier)，感知器(perceptron)
+       2.支持向量机(support vector machine)，最小二乘支持向量机(least squares support vector machines )
+       3.二次分类器(quadratic classifier)
+       4.核估计(kernel estimation)，最近邻居法(k-nearest neighbor)
+       5.Boosting（增强）算法，梯度增强(Gradient Boosting)，自适应增强(Adaboost)
+       6.决策树(decision trees)，随机森林(random forests)
+       7。神经网络(neural networks)
+       8.学习式向量量化(learning vector quantization)
+       9.bagging 装袋
+       10.ANN 人工神经网络
+
+      ```python
+       #分类的评价指标：
+              1. 精确度(accuracy)：分类正确的样本数/总样本数
+              2. 查准率(precision_weighted)：针对每一个类别，预测正确的样本数比上预测出来的样本数
+              3. 召回率(recall_weighted)：针对每一个类别，预测正确的样本数比上实际存在的样本数
+              4. f1得分(f1_weighted)：2x查准率x召回率/(查准率+召回率)
+
+      ```
 
 - [x] 线性回归
 - [x] 逻辑回归
